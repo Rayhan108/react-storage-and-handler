@@ -1,0 +1,32 @@
+[
+    {
+      "id": "641f4a78cf6d2b3cd93052d6",
+      "price": "$1,285.63",
+      "name": "HP"
+    },
+    {
+      "id": "641f4a78929c133167f48de9",
+      "price": "$3,898.03",
+      "name": "Lenevo"
+    },
+    {
+      "id": "641f4a78fffcc057e05926c1",
+      "price": "$3,960.99",
+      "name": "Dell"
+    },
+    {
+      "id": "641f4a78b24fcbb68f845e32",
+      "price": "$2,996.69",
+      "name": "Acer"
+    },
+    {
+      "id": "641f4a786a0c0fca7076a603",
+      "price": "$3,924.89",
+      "name": "Asus"
+    },
+    {
+      "id": "641f4a788c6b7c0eb51fb402",
+      "price": "$3,301.70",
+      "name": "Aspire"
+    }
+  ]
