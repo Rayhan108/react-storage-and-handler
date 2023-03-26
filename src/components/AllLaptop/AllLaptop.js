@@ -1,9 +1,10 @@
 import React from 'react';
+import { addToDb } from '../Utilities/FakeDb';
 
 const AllLaptop = (props) => {
     const {id,name,price}=props.laptop;
     const addToCart =(id)=>{
-        console.log("item added",id);
+      addToDb(id)
     }
     return (
         <div style={{border:"2px solid salmon",borderRadius:"20px",margin:"20px",padding:"20px",background:"lightblue"}}>
