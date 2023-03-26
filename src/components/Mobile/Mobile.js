@@ -1,6 +1,6 @@
 import React from 'react';
 import AllMobile from '../AllMobile/AllMobile';
-
+import './Mobile.css'
 const Mobile = () => {
     const mobiles=[
         {id:1,name:'oppoA5',price:17500},
@@ -13,9 +13,11 @@ const Mobile = () => {
     return (
         <div>
             <h1>Letest Phones</h1>
-          {
+         <div className="phone-container">
+         {
             mobiles.map(mobile =><AllMobile key={mobile.id} mobile={mobile}></AllMobile>)
-          }  
+          } 
+          </div> 
         </div>
     );
 };
